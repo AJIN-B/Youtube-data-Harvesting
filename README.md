@@ -46,7 +46,7 @@ or
 
 #### images
 
-![app starting]("/images/starting.jpg")
+![app starting]("images/starting.jpg")
 
 
 
