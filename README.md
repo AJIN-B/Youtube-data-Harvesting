@@ -46,7 +46,7 @@ or
 
 #### images
 
-![app starting]("images/starting.jpg")
+![app starting]("https://github.com/AJIN-B/Youtube-data-Harvesting/blob/main/images/starting.jpg")
 
 
 
