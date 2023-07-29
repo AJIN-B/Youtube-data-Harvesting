@@ -20,13 +20,4 @@ def mdb_insert(keyword,channel_Data,video_Data,comments_data):
     collection = db[new_collection_name]
     Channel_Data = {"_id":f"{new_collection_name}-Channel","Channels_Data":channel_Data}
     collection.insert_one(Channel_Data)
-    
-    # Videos_Data = {"_id":f"{new_collection_name}-Videos","Videos_Data":video_Data}
-    # Comments_Data = {"_id":f"{new_collection_name}-Comments","Comments_Data":comments_data}
-    ## insert at document level
-    # coll_Data = [Channel_Data,Videos_Data,Comments_Data]
-
-    # for col in coll_Data:
-    #     collection.insert_one(col)
-
 

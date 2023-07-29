@@ -9,8 +9,8 @@ def update_mysql(channel_data,video_df,comment_df):
     video_df = pd.DataFrame(video_df)
     comment_df = pd.DataFrame(comment_df)
     
-    mydb = mysql.connector.connect(host='localhost',user='root',
-                                   password='ajinleo',database ='youtube')
+    mydb = mysql.connector.connect(host='localhost',user='youruser',
+                                   password='yourpassword',database ='yourdatabase')
     
     cursor = mydb.cursor()
     

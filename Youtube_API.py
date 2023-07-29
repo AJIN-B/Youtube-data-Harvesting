@@ -7,7 +7,7 @@ import requests
 import re
 
 
-API_KEY = 'AIzaSyCaTjMuKjuY38AC7UDXskFJ6F9sEWLzzFc'
+API_KEY = 'provide Your API KEY for Youtube'
 
 #%%
 
@@ -158,6 +158,7 @@ def get_video_info(video_ids):
                 continue
     
     return all_video_stats
+
 
 def convert_comment_df(data):
     re_data = []
