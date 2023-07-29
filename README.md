@@ -1,6 +1,5 @@
 # Youtube-Data-Harvesting
 
----
 ## Project Descriptions:
 
 #### This app is build for to extract the youtube channel data 
@@ -16,15 +15,15 @@
 
 ---
 
-To run this app
+#### To run this app
 
 `python -m streamlit run app.py`
 
-or
+###### or
 
 `streamlit run app.py`
 
-### NOTE
+#### NOTE
 
 - provide your api key for the youtube 
 - provide your sql user, database name, password.
@@ -43,12 +42,6 @@ or
 ### To install the basic Requirements
 
 `pip install - r requirements.txt`
-
-#### images
-
-![app starting]("https://github.com/AJIN-B/Youtube-data-Harvesting/blob/main/images/starting.jpg")
-
-
 
 
 
