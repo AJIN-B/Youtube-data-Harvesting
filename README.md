@@ -44,5 +44,5 @@
 `pip install - r requirements.txt`
 
 #### sample screenshot
-[sample](https://github.com/AJIN-B/Youtube-data-Harvesting/blob/main/images/contents.jpg?raw=true)
+![sample](https://github.com/AJIN-B/Youtube-data-Harvesting/blob/main/images/contents.jpg?raw=true)
 
