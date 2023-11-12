@@ -79,6 +79,7 @@ git clone git@github.com:AJIN-B/Youtube-data-Harvesting.git
 cd Youtube-data-Harvesting
 ```
 
+<<<<<<< HEAD
 2. **Set Up a Virtual Environment** (Optional but Recommended):
 ```bash
 # For macOS and Linux:
@@ -129,4 +130,8 @@ streamlit run app.py
 ```
 
 After running the command, Streamlit will provide a local URL (usually `http://localhost:8501/`) which you can open in your web browser to access application.
+=======
+#### sample screenshot
+![sample](https://github.com/AJIN-B/Youtube-data-Harvesting/blob/main/images/contents.jpg?raw=true)
+>>>>>>> 0d8a414878b9f0eee46b14954fd60bc2693e7fee
 
