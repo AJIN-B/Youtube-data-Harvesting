@@ -5,9 +5,12 @@ import googleapiclient.errors
 from googleapiclient.errors import HttpError
 import requests
 import re
+from dotenv import load_dotenv
+import os
+load_dotenv()
 
 
-API_KEY = 'provide Your API KEY for Youtube'
+API_KEY = os.getenv('API_KEY')
 
 #%%
 

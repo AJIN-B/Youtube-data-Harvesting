@@ -1,6 +1,8 @@
 import mysql.connector
 import pandas as pd
-
+from dotenv import load_dotenv
+import os
+load_dotenv()
 
 def update_mysql(channel_data,video_df,comment_df):
     
@@ -9,8 +11,13 @@ def update_mysql(channel_data,video_df,comment_df):
     video_df = pd.DataFrame(video_df)
     comment_df = pd.DataFrame(comment_df)
     
-    mydb = mysql.connector.connect(host='localhost',user='youruser',
-                                   password='yourpassword',database ='yourdatabase')
+    #mydb = mysql.connector.connect(host='localhost',user='youruser',
+    #                               password='yourpassword',database ='yourdatabase')
+    
+    mydb = mysql.connector.connect(host=os.getenv('HOST'),user=os.getenv('USER'),
+                      password=os.getenv('PASSWORD'),
+                      port=os.getenv('PORT'),
+                      database =os.getenv('DATABASE_NAME')) 
     
     cursor = mydb.cursor()
     

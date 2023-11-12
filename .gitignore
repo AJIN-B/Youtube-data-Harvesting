@@ -1,0 +1,10 @@
+# ignoring .env file  
+.env
+
+# ignoring .venv folder  
+venv
+__pycache__
+
+# files not using
+trypy.py
+refer.txt
